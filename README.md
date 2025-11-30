@@ -1,7 +1,7 @@
 # GasSpike-Trap
 GasSpikeTrap is triggered if block.basefee suddenly increases by more than a set threshold (e.g., 50%). This reflects “abnormal” network conditions (e.g., flash attacks, mempool congestion, or coordinated spam transactions).
 
-GasSpikeTrap
+GasSpikeTrap.sol
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
@@ -43,7 +43,7 @@ contract GasSpikeTrap is ITrap {
 ```
 
 
-ITrap
+ITrap.sol
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
@@ -62,7 +62,7 @@ interface ITrap {
 }
 ```
 
-GasResponse
+GasResponse.sol
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
