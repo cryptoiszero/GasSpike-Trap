@@ -7,7 +7,7 @@ contract GasSpikeTrap is ITrap {
     uint256 public constant GAS_SPIKE_THRESHOLD_BPS = 5000; // 50%
     uint8   public constant MIN_SAMPLES = 2;
 
-    address public constant TARGET = 0x7b1e678B98718eA599763b3247C3273F0Ff06B36;
+    address public constant TARGET = YOUR_WALLET;
 
     constructor() {}
 
